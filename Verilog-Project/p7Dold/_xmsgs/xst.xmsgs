@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 200: Port <arg fmt="%s" index="1">error</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 203: Port <arg fmt="%s" index="1">out</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 209: Port <arg fmt="%s" index="1">RD2</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 232: Port <arg fmt="%s" index="1">regDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 247: Port <arg fmt="%s" index="1">Result</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 248: Port <arg fmt="%s" index="1">out</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 249: Port <arg fmt="%s" index="1">out</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 264: Port <arg fmt="%s" index="1">regDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 272: Port <arg fmt="%s" index="1">error</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 279: Port <arg fmt="%s" index="1">PrWe</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 296: Port <arg fmt="%s" index="1">BranchOPO</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\ashdaisdh\p7Dold\datapath.v" Line 307: Port <arg fmt="%s" index="1">stalle</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"C:\ashdaisdh\p7Dold\datapath.v" Line 184: Using initial value of <arg fmt="%s" index="1">ra</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"C:\ashdaisdh\p7Dold\IM.v" Line 50: Signal &lt;<arg fmt="%s" index="1">Mempc</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"C:\ashdaisdh\p7Dold\IM.v" Line 51: Signal &lt;<arg fmt="%s" index="1">Mempc</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"C:\ashdaisdh\p7Dold\IM.v" Line 45: Using initial value of <arg fmt="%s" index="1">Mempc</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\ashdaisdh\p7Dold\IM.v" Line 62: Assignment to <arg fmt="%s" index="1">pc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\ashdaisdh\p7Dold\D.v" Line 76: Port <arg fmt="%s" index="1">hbw</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"C:\ashdaisdh\p7Dold\D.v" Line 61: Using initial value of <arg fmt="%s" index="1">zero</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\ashdaisdh\p7Dold\E.v" Line 89: Port <arg fmt="%s" index="1">hbw</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\ashdaisdh\p7Dold\E.v" Line 85: Assignment to <arg fmt="%s" index="1">jrr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\ashdaisdh\p7Dold\mude.v" Line 95: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\ashdaisdh\p7Dold\mude.v" Line 98: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\ashdaisdh\p7Dold\mude.v" Line 101: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\ashdaisdh\p7Dold\mude.v" Line 104: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\ashdaisdh\p7Dold\mude.v" Line 116: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\ashdaisdh\p7Dold\mude.v" Line 120: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\ashdaisdh\p7Dold\mude.v" Line 123: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\ashdaisdh\p7Dold\mude.v" Line 126: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\ashdaisdh\p7Dold\mude.v" Line 129: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\ashdaisdh\p7Dold\M.v" Line 80: Port <arg fmt="%s" index="1">aomd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"C:\ashdaisdh\p7Dold\M.v" Line 71: Using initial value of <arg fmt="%s" index="1">zero</arg> since it is never assigned
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1511" delta="new" >"C:\ashdaisdh\p7Dold\CP0.v" Line 42: Mix of blocking and non-blocking assignments to variable &lt;<arg fmt="%s" index="1">SR</arg>&gt; is not a recommended coding practice.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\ashdaisdh\p7Dold\CP0.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">CP0</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\ashdaisdh\p7Dold\W.v" Line 70: Port <arg fmt="%s" index="1">hbw</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"C:\ashdaisdh\p7Dold\W.v" Line 61: Using initial value of <arg fmt="%s" index="1">zero</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\ashdaisdh\p7Dold\datapath.v" Line 55: Net &lt;<arg fmt="%s" index="1">controllerstall_stalle</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\ashdaisdh\p7Dold\datapath.v" Line 73: Net &lt;<arg fmt="%s" index="1">grf_RD2[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\ashdaisdh\p7Dold\datapath.v" Line 135: Net &lt;<arg fmt="%s" index="1">be_error[3]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"C:\ashdaisdh\p7Dold\datapath.v" Line 200: Input port <arg fmt="%s" index="1">error[3]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\ashdaisdh\p7Dold\mips.v" Line 46: Assignment to <arg fmt="%s" index="1">PrBE</arg> ignored, since the identifier is never used
+</msg>
+
+</messages>
+

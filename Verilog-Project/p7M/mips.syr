@@ -1,0 +1,258 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\ashdaisdh\p7D\usenew.v" into library work
+Parsing module <Tuse>.
+Parsing module <TnewE>.
+Parsing module <TnewM>.
+Parsing module <TnewW>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\mux.v" into library work
+Parsing module <mux32>.
+Parsing module <mux5>.
+Parsing module <muxerror>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\ctrl.v" into library work
+Parsing module <ctrl>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\W.v" into library work
+Parsing module <MtoW>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\mude.v" into library work
+Parsing module <mude>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\M.v" into library work
+Parsing module <EtoM>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\IM.v" into library work
+Parsing module <IM2>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\F.v" into library work
+Parsing module <forward4>.
+Parsing module <forward3>.
+Parsing module <forward2>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\extend.v" into library work
+Parsing module <extend>.
+Parsing module <extend16forpc>.
+Parsing module <extend26forpc>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\E.v" into library work
+Parsing module <DtoE>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\drext.v" into library work
+Parsing module <drext>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\dmtobridge.v" into library work
+Parsing module <dmtobridge>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\DM.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\delay.v" into library work
+Parsing module <delay32>.
+Parsing module <delay1>.
+Parsing module <delay4>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\D.v" into library work
+Parsing module <FtoD>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\CP0.v" into library work
+Parsing module <CP0>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\controller.v" into library work
+Parsing module <controller>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\comparator.v" into library work
+Parsing module <comparator>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\BE.v" into library work
+Parsing module <BE>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\BD.v" into library work
+Parsing module <BD>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\timer.v" into library work
+Parsing module <timer>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\datapath.v" into library work
+Parsing module <datapath>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\bridge.v" into library work
+Parsing module <bridge>.
+Analyzing Verilog file "C:\ashdaisdh\p7D\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 45: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 46: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 47: Port error is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 51: Port error is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 52: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 54: Port imm is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 55: Port imm is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 56: Port imm is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 57: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 58: Port RD1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 60: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 64: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 68: Port branch is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 71: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 72: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 73: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 74: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 75: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 76: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 77: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 78: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 79: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 80: Port stallO is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 83: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 85: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 89: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 90: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 91: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 92: Port Result is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 93: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 94: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 95: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 97: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 101: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 102: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 103: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 104: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 105: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 106: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 107: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 109: Port BranchOPO is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 111: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 112: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 113: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 115: Port dataOut is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 116: Port DRout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 118: Port PrWe is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 119: Port errored is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 121: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 122: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 127: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 128: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 129: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 130: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 131: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 132: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 134: Port BranchOPO is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 135: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 136: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 137: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 138: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 140: Port bdout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\ashdaisdh\p7D\datapath.v" Line 142: Port stallpc is not connected to this instance
+
+Elaborating module <datapath>.
+WARNING:HDLCompiler:872 - "C:\ashdaisdh\p7D\datapath.v" Line 36: Using initial value of ra since it is never assigned
+ERROR:HDLCompiler:418 - "C:\ashdaisdh\p7D\datapath.v" Line 40: External reference <etom.PCO> remains unresolved.
+Module datapath remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\ashdaisdh\p7D\datapath.v" Line 21: Empty module <datapath> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\ashdaisdh\p7D\mips.v" Line 46: Assignment to PrBE ignored, since the identifier is never used
+
+Elaborating module <timer>.
+
+Elaborating module <bridge>.
+--> 
+
+Total memory usage is 4489604 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   66 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/ashdaisdh/fsm/aaa_isim_beh.exe" -prj "C:/ashdaisdh/fsm/aaa_beh.prj" "work.aaa" "work.glbl" 

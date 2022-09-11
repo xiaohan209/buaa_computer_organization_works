@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+IM instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .ifBranch(ifBranch), 
+    .branchEnable(branchEnable), 
+    .j(j), 
+    .jr(jr), 
+    .imm(imm), 
+    .Instr(Instr), 
+    .next(next), 
+    .thisInstr(thisInstr)
+    );
+
+

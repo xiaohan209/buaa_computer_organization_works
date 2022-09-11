@@ -1,0 +1,10 @@
+Command line:
+   mips_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53315
+
+Thu Dec 26 15:36:51 2019
+
+
+ Elaboration Time: 0.5 sec

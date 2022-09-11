@@ -1,0 +1,28 @@
+Command line:
+   adderceshi_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63890
+
+Mon Sep 16 17:44:01 2019
+
+
+ Elaboration Time: 0.28125 sec
+
+ Current Memory Usage: 5816.51 Meg
+
+ Total Signals          : 21
+ Total Nets             : 28
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 123
+
+ Total Simulation Time: 0.5625 sec
+
+ Current Memory Usage: 4715.47 Meg
+
+Mon Sep 16 17:47:35 2019
+

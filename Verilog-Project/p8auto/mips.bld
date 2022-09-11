@@ -1,0 +1,149 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PIN.ucf -p
+xc6slx100-fgg676-2 mips.ngc mips.ngd
+
+Reading NGO file "C:/ashdaisdh/p8auto/mips.ngc" ...
+Loading design module "C:\ashdaisdh\p8auto/wrapper.ngc"...
+Loading design module "C:\ashdaisdh\p8auto/FIFO.ngc"...
+Loading design module "ipcore_dir/IMCORE.ngc"...
+Loading design module "ipcore_dir/DMCORE.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "PIN.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
+   'TS_clk_in', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_clock_clkout1 = PERIOD "clock_clkout1" TS_clk_in / 1.6
+   HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
+   'TS_clk_in', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_clock_clkout0 = PERIOD "clock_clkout0" TS_clk_in / 0.4
+   HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_addr<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_F_instr<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RData<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'wrp/user_M_RE' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  97
+
+Total memory usage is 4423192 kilobytes
+
+Writing NGD file "mips.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+Writing NGDBUILD log file "mips.bld"...

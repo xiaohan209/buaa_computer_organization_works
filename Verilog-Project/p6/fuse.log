@@ -1,0 +1,123 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/ashdaisdh/p6/tb_isim_beh.exe -prj C:/ashdaisdh/p6/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/ashdaisdh/p6/usenew.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/mux.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/ctrl.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/W.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/mude.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/M.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/IM.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/GRF.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/F.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/extend.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/E.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/drext.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/DM.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/delay.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/D.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/controller.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/comparator.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/BE.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/ALU.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/datapath.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/mips.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p6/tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 31: Port Instr is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 35: Port stallO is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 38: Port imm is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 39: Port imm is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 40: Port imm is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 41: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 42: Port RD1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 44: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 48: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 52: Port branch is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 55: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 56: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 57: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 58: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 59: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 60: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 61: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 62: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 63: Port stallO is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 66: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 68: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 71: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 73: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 74: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 75: Port Result is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 76: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 77: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 79: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 83: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 84: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 85: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 86: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 87: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 88: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 90: Port BranchOPO is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 92: Port dataout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 93: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 96: Port dataOut is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 97: Port DRout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 101: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 102: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 103: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 104: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 105: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 106: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 108: Port BranchOPO is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 109: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 110: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 111: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 112: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/datapath.v" Line 116: Port stallpc is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/D.v" Line 68: Port hbw is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/E.v" Line 84: Port hbw is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/M.v" Line 70: Port aomd is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p6/W.v" Line 66: Port hbw is not connected to this instance
+Completed static elaboration
+Compiling module IM2
+Compiling module Tuse
+Compiling module ctrl
+Compiling module FtoD
+Compiling module mux32
+Compiling module extend
+Compiling module extend16forpc
+Compiling module extend26forpc
+Compiling module GRF
+Compiling module forward4
+Compiling module comparator
+Compiling module delay32
+Compiling module delay1
+Compiling module TnewE
+Compiling module DtoE
+Compiling module forward3
+Compiling module ALU
+Compiling module mude
+Compiling module TnewM
+Compiling module EtoM
+Compiling module forward2
+Compiling module BE
+Compiling module DM
+Compiling module drext
+Compiling module TnewW
+Compiling module MtoW
+Compiling module mux5
+Compiling module controller
+Compiling module datapath
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 24 sub-compilation(s) to finish...
+Compiled 32 Verilog Units
+Built simulation executable C:/ashdaisdh/p6/tb_isim_beh.exe
+Fuse Memory Usage: 32432 KB
+Fuse CPU Usage: 1046 ms

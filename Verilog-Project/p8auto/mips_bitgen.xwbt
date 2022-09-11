@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\ashdaisdh\p8auto\mips.ncd
+OUTFILE=C:\ashdaisdh\p8auto\mips.bit
+FAMILY=Spartan6
+PART=xc6slx100-2fgg676
+WORKINGDIR=C:\ashdaisdh\p8auto
+LICENSE=ISE
+USER_INFO=__0_0_0

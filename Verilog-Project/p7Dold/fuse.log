@@ -1,0 +1,97 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/ashdaisdh/p7Dold/tb_isim_beh.exe -prj C:/ashdaisdh/p7Dold/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/usenew.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/mux.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/ctrl.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/W.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/mude.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/M.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/IM.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/GRF.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/F.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/extend.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/E.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/drext.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/dmtobridge.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/DM.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/delay.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/D.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/CP0.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/controller.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/comparator.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/BE.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/BD.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/ALU.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/timer.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/datapath.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/bridge.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/mips.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p7Dold/tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/tb.v" Line 31: Port addr is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 200: Port error is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 203: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 209: Port RD2 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 232: Port regDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 247: Port Result is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 248: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 249: Port out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 264: Port regDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 272: Port error is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 279: Port PrWe is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 296: Port BranchOPO is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/datapath.v" Line 307: Port stalle is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/D.v" Line 76: Port hbw is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/E.v" Line 89: Port hbw is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/M.v" Line 80: Port aomd is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p7Dold/W.v" Line 70: Port hbw is not connected to this instance
+Completed static elaboration
+Compiling module mux32
+Compiling module IM2
+Compiling module Tuse
+Compiling module ctrl
+Compiling module FtoD
+Compiling module muxerror
+Compiling module extend
+Compiling module extend16forpc
+Compiling module extend26forpc
+Compiling module GRF
+Compiling module forward4
+Compiling module comparator
+Compiling module delay32
+Compiling module delay1
+Compiling module delay4
+Compiling module TnewE
+Compiling module DtoE
+Compiling module forward3
+Compiling module ALU
+Compiling module mude
+Compiling module TnewM
+Compiling module EtoM
+Compiling module forward2
+Compiling module BE
+Compiling module DM
+Compiling module drext
+Compiling module dmtobridge
+Compiling module CP0
+Compiling module TnewW
+Compiling module MtoW
+Compiling module mux5
+Compiling module BD
+Compiling module controller
+Compiling module datapath
+Compiling module timer
+Compiling module bridge
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 30 sub-compilation(s) to finish...
+Compiled 39 Verilog Units
+Built simulation executable C:/ashdaisdh/p7Dold/tb_isim_beh.exe
+Fuse Memory Usage: 33388 KB
+Fuse CPU Usage: 1249 ms

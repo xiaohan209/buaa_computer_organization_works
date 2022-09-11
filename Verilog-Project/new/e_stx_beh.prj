@@ -1,0 +1,4 @@
+verilog isim_temp "i.v"
+verilog isim_temp "m.v"
+verilog isim_temp "e.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,125 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/ashdaisdh/p8/mips_test_isim_beh.exe -prj C:/ashdaisdh/p8/mips_test_beh.prj work.mips_test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/ashdaisdh/p8/ipcore_dir/CLK.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/usenew.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/mux.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/ipcore_dir/IMCORE.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/ipcore_dir/DMCORE.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/ctrl.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/W.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/utils.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/txd.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/rxd.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/M.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/IM.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/GRF.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/F.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/extend.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/E.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/drext.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/dmtobridge.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/DM.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/delay.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/D.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/CP0.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/controller.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/comparator.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/BE.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/BD.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/ALU.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/uart.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/TUBE.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/timer.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/onoff.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/LED.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/KEYS.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/datapath.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/bridge.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/mips.v" into library work
+Analyzing Verilog file "C:/ashdaisdh/p8/tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/tb.v" Line 39: Port uart_rxd is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/mips.v" Line 94: Port ACK_O is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/datapath.v" Line 199: Port regDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/datapath.v" Line 232: Port regDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/datapath.v" Line 264: Port regDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/datapath.v" Line 279: Port PrWe is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/datapath.v" Line 296: Port BranchOPO is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/D.v" Line 76: Port hbw is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/E.v" Line 89: Port hbw is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/M.v" Line 80: Port aomd is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/ashdaisdh/p8/W.v" Line 70: Port hbw is not connected to this instance
+Completed static elaboration
+Compiling module IBUFG
+Compiling module PLL_ADV(BANDWIDTH="OPTIMIZED",CL...
+Compiling module PLL_BASE(CLKFBOUT_MULT=16,CLKIN_...
+Compiling module BUFG
+Compiling module CLK
+Compiling module mux32
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module IMCORE
+Compiling module IM2
+Compiling module Tuse
+Compiling module ctrl
+Compiling module FtoD
+Compiling module muxerror
+Compiling module extend
+Compiling module extend16forpc
+Compiling module extend26forpc
+Compiling module GRF
+Compiling module forward4
+Compiling module comparator
+Compiling module delay32
+Compiling module delay1
+Compiling module delay4
+Compiling module TnewE
+Compiling module DtoE
+Compiling module forward3
+Compiling module ALU
+Compiling module TnewM
+Compiling module EtoM
+Compiling module forward2
+Compiling module BE
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module DMCORE
+Compiling module DM
+Compiling module drext
+Compiling module dmtobridge
+Compiling module CP0
+Compiling module TnewW
+Compiling module MtoW
+Compiling module mux5
+Compiling module BD
+Compiling module controller
+Compiling module datapath
+Compiling module timer
+Compiling module rx_unit
+Compiling module ctrl_shift
+Compiling module trans_reg
+Compiling module tx_unit
+Compiling module counter(size_cnt=16)
+Compiling module divisor(size_cnt_rx=16,size_cnt_...
+Compiling module MiniUART
+Compiling module onoff
+Compiling module LED
+Compiling module TUBE
+Compiling module KEYS
+Compiling module bridge
+Compiling module mips
+Compiling module mips_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 49 sub-compilation(s) to finish...
+Compiled 63 Verilog Units
+Built simulation executable C:/ashdaisdh/p8/mips_test_isim_beh.exe
+Fuse Memory Usage: 47048 KB
+Fuse CPU Usage: 1952 ms

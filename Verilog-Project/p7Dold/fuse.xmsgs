@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/tb.v" Line 31: Port <arg fmt="%s" index="1">addr</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 200: Port <arg fmt="%s" index="1">error</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 203: Port <arg fmt="%s" index="1">out</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 209: Port <arg fmt="%s" index="1">RD2</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 232: Port <arg fmt="%s" index="1">regDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 247: Port <arg fmt="%s" index="1">Result</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 248: Port <arg fmt="%s" index="1">out</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 249: Port <arg fmt="%s" index="1">out</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 264: Port <arg fmt="%s" index="1">regDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 272: Port <arg fmt="%s" index="1">error</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 279: Port <arg fmt="%s" index="1">PrWe</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 296: Port <arg fmt="%s" index="1">BranchOPO</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/datapath.v" Line 307: Port <arg fmt="%s" index="1">stalle</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/D.v" Line 76: Port <arg fmt="%s" index="1">hbw</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/E.v" Line 89: Port <arg fmt="%s" index="1">hbw</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/M.v" Line 80: Port <arg fmt="%s" index="1">aomd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p7Dold/W.v" Line 70: Port <arg fmt="%s" index="1">hbw</arg> is not connected to this instance
+</msg>
+
+</messages>
+

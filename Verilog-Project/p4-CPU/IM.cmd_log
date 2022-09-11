@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj p4-CPU -o C:/ashdaisdh/p4-CPU/IM.tfi -lib work C:/ashdaisdh/p4-CPU//IM.v -module IM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/ashdaisdh/p4-CPU/IM.v -lang verilog -prj p4-CPU -o IM.spl -module IM -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 IM.spl C:/ashdaisdh/p4-CPU/IM.sym 

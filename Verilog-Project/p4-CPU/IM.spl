@@ -1,0 +1,16 @@
+[Inputs]
+clk
+reset
+ifBranch
+branchEnable
+j
+jr
+=imm[31:0]=
+[Outputs]
+=Instr[31:0]=
+=next[31:0]=
+=thisInstr[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel IM
+

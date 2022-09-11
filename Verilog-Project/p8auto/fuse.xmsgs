@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/tb.v" Line 39: Port <arg fmt="%s" index="1">uart_rxd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/mips.v" Line 94: Port <arg fmt="%s" index="1">F_addr</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/mips.v" Line 101: Port <arg fmt="%s" index="1">ACK_O</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/datapath.v" Line 203: Port <arg fmt="%s" index="1">regDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/datapath.v" Line 236: Port <arg fmt="%s" index="1">regDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/datapath.v" Line 268: Port <arg fmt="%s" index="1">regDst</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/datapath.v" Line 283: Port <arg fmt="%s" index="1">PrWe</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/datapath.v" Line 300: Port <arg fmt="%s" index="1">BranchOPO</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/D.v" Line 76: Port <arg fmt="%s" index="1">hbw</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/E.v" Line 89: Port <arg fmt="%s" index="1">hbw</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/M.v" Line 80: Port <arg fmt="%s" index="1">aomd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/ashdaisdh/p8auto/W.v" Line 70: Port <arg fmt="%s" index="1">hbw</arg> is not connected to this instance
+</msg>
+
+</messages>
+
